@@ -17,3 +17,5 @@ RUN chmod 0755 /usr/local/lib
 RUN mv -f libcs50.a /usr/local/lib
 RUN cd ..
 RUN rm -rf library50-c-5
+
+CMD ["/bin/bash"]
