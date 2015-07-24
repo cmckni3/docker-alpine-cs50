@@ -8,3 +8,15 @@ Alpine image based on [docker-alpine-build-tools](https://github.com/cmckni3/doc
 ## What's Included
 
 * [cs50](https://manual.cs50.net/library)
+
+## Building the image
+
+```sh
+docker build -t cmckni3/docker-alpine-cs50 .
+```
+
+## Running the image
+
+```sh
+docker run -it cmckni3/docker-alpine-cs50
+```
